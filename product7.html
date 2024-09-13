@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/webp" href="images/icon.webp">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.webp" alt="Logo" style="height: 30px;">
+            </a>
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="book.html">Book appointment</a></li>
+                <li class="nav-item"><a class="nav-link" href="pharmacy.html">Pharmacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-5">Sedno Syrup 60ml</h2> <!-- Centered heading -->
+        <div class="product-page">
+            <div class="product-image">
+                <img src="images/pharmacy items/SEDNO.webp" class="card-img" alt="Medicine Image">
+            </div>
+            <div class="product-details">
+                <h3>Sedno Syrup 60ml</h3>
+                <p>Price: Rs.650.88</p>
+                <p>Sedno Syrup is a therapeutic solution used to alleviate symptoms of coughing and throat irritation. It contains soothing ingredients that provide relief, helping you feel better faster. Please consult a healthcare provider before use.</p>
+                
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="100" style="width: 60px; margin-bottom: 20px;">
+
+                <div class="buttons">
+                    <button class="btn add-to-cart">Add to Cart</button>
+                    <button class="btn buy-now" onclick="window.location.href='product7.html'">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <span>SERENE HOSPITALS PVT LTD</span>
+    </footer>
+</body>
+</html>
